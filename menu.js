@@ -11,14 +11,6 @@ menu.addEventListener('click', () => {
     menu.classList.remove('ativo')
 })
 
-selectIdioma.addEventListener('click', (event) => {
-    event.stopPropagation()
-})
-
-selectIdioma.addEventListener('change', () => {
-    menu.classList.remove('ativo')
-})
-
 overlay.addEventListener('click', () => {
     menu.classList.remove('ativo')
 })

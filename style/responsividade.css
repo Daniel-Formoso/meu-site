@@ -56,15 +56,6 @@
         padding: 15px 30px;
     }
 
-    .menu-mobile .opcoes {
-        height: 20%;
-        margin: 15px 30px;
-        font-size: 25px;
-        border: none;
-        color: var(--texto-principal);
-        background-color: transparent;
-    }
-
     .btn-fechar {
         padding: 30px;
     }
@@ -173,6 +164,26 @@
     /* ! RODAPE */
     .voltar-ao-topo {
         display: none;
+    }
+
+    .inicio {
+        display: block;
+        padding-bottom: 10px;
+    }
+
+    .inicio a {
+        text-decoration: none;
+        color: currentColor;
+    }
+
+    .inicio h3 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .inicio h3:hover {
+        border-bottom: 1px solid var(--borda);
+        opacity: .5;;
     }
 
     .section-vazia {

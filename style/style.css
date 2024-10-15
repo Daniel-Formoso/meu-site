@@ -101,12 +101,6 @@ header {
     display: none;
 }
 
-.opcoes {
-    border: none;
-    font-size: 15px;
-    padding: 10px;
-}
-
 
 /* ! APRESENTACAO */
 .conteudo-imagem img {
@@ -442,6 +436,10 @@ footer {
     align-items: center;
     justify-content: center;
     position: relative;
+}
+
+.inicio {
+    display: none;
 }
 
 .voltar-ao-topo {
