@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsividade.css">
+    <script src="scritp.js" defer></script>
+    <script src="menu.js" defer></script>
+
+<body>
+    <header id="inicio">
+
+        <div class="interface">
+            <div class="logo-site">
+                <img src="img/icones/logo.webp">
+            </div>
+
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#sobre-mim">Sobre Mim</a></li>
+                    <li><a href="#experiencia">Experiência</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <select class="opcoes" name="opcoes">
+                        <option value="PT">PT-BR</option>
+                        <option value="EN">EN</option>
+                    </select>
+                </ul><!-- menu -->
+            </nav><!-- nav --->
+
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <img src="img/icones/menu-aberto.webp">
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <img src="img/icones/botao-fechar.webp">
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#sobre-mim">Sobre Mim</a></li>
+                        <li><a href="#experiencia">Experiência</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                        <select class="opcoes" id="select-idioma" name="opcoes">
+                            <option value="PT">PT</option>
+                            <option value="EN">EN</option>
+                        </select>
+                    </ul><!-- menu -->
+                </nav><!-- nav --->
+            </div>
+
+            <div class="overlay-menu" id="overlay-menu"></div>
+
+        </div><!--interface-->
+    </header>
+
+    <main>
+
+        <section class="primeira-section">
+            <div class="container-apresentacao">
+                <div class="conteudo-imagem">
+                    <img src="img/foto-com-sombra.webp" alt="minha foto">
+                </div><!--conteudo-imagem-->
+
+                <div class="conteudo-texto">
+                    <p>Olá, Eu sou</p>
+                    <h2>Daniel Formoso</h2>
+                    <h3>Desenvolvedor Frontend</h3>
+
+                    <div class="conteudo-botoes">
+                        <button>
+                            <a href="arquivos/curriculo.pdf">Donwload CV</a>
+                        </button>
+                        <button class="botao-contato">
+                            <a href="#">Contate-me</a>
+                        </button>
+                    </div><!--conteudo-botoes-->
+                    <div class="conteudo-links">
+                        <a href="https://github.com/Daniel-Formoso"><img src="img/icones/github.webp" alt="github"></a>
+                        <a href="https://www.linkedin.com/in/daniel-formoso-7943271b5/"><img
+                                src="img/icones/linkedin.webp" alt="linkedin"></a>
+                    </div>
+                </div><!--conteudo-texto-->
+            </div><!--container-apresentacao-->
+
+
+        </section>
+
+        <section id="sobre-mim">
+
+            <div class="titulo-sobre-mim">
+                <p>Me Conheça Mais</p>
+                <h3>Sobre mim</h3>
+            </div>
+
+            <div class="container-conteudo-geral">
+
+                <!-- <div class="conteudo-imagem">
+                    <img src="img/minha-foto-2.webp">
+                </div> -->
+
+                <div class="conteudo-paragrafo">
+                    <p>Estudante de programação e futuro desenvolvedor, em busca da minha primeira oportunidade na área
+                        de tecnologia. Sou fascinado por como a tecnologia pode ajudar a resolver problemas no dia a
+                        dia. Durante meus estudos, tive a oportunidade de aperfeiçoar meus conhecimentos na parte de
+                        Frontend, no qual consegui adiquirir um certificado pela Alura na formação de <a
+                            href="arquivos/certificado-html_compressed.pdf">HTML e CSS para
+                            projetos web</a> e também um certificado na formação de <a
+                            href="arquivos/certificado-python_compressed.pdf">Python com Orienteção a Objetos</a>. Sou
+                        uma
+                        pessoa apaixonada por tecnologia, proativa valoriza muito o trabalho em equipe, apreciando os
+                        objetivos que alcançamos juntos. C equipe de qualidade e minha dedicação diária, aspiro a
+                        construir uma carreira de sucesso na área.
+                    </p>
+                </div><!--conteudo-paragrafo-->
+            </div><!--container-conteudo-geral-->
+
+            <div class="proxima-section">
+                <a href="#experiencia"><img src="img/icones/seta.webp"></a>
+            </div>
+        </section>
+
+        <section id="experiencia">
+            <div class="titulo-experiencia">
+                <h3>Experiência</h3>
+            </div>
+
+            <div class="container-geral">
+
+                <div class="container-conteudo">
+
+                    <div class="titulo">
+                        <h3>Usando agora</h3>
+                    </div>
+
+                    <div class="container-box-conteudo-1">
+                        <div class="conteudo">
+                            <img src="img/icones/html.webp">
+                            <div class="texto">
+                                <h3>HTML5</h3>
+                                <p>Intermediário</p>
+                            </div>
+                        </div>
+                        <div class="conteudo">
+                            <img src="img/icones/css.webp">
+                            <div class="texto">
+                                <h3>CSS3</h3>
+                                <p>Intermediário</p>
+                            </div>
+                        </div>
+                        <div class="conteudo">
+                            <img src="img/icones/js.webp">
+                            <div class="texto">
+                                <h3>Java Script</h3>
+                                <p>Básico</p>
+                            </div>
+                        </div>
+                        <div class="conteudo">
+                            <img src="img/icones/figma.webp">
+                            <div class="texto">
+                                <h3>Figma</h3>
+                                <p>Básico</p>
+                            </div>
+                        </div>
+                        <div class="conteudo">
+                            <!-- <img src="img/icones/reticencias.webp"> -->
+                            <div class="texto-em-breve">
+                                <img src="img/icones/reticencias.webp">
+                            </div>
+                        </div>
+                        <div class="conteudo">
+                            <!-- <img src="img/icones/github.webp"> -->
+                            <div class="texto-em-breve">
+                                <img src="img/icones/reticencias.webp">
+                            </div>
+                        </div>
+                    </div><!--container-box-conteudo-1-->
+                </div><!--container-conteudo-->
+
+                <div class="container-conteudo">
+
+                    <div class="titulo">
+                        <h3>Conhecimentos</h3>
+                    </div>
+
+                    <div class="container-box-conteudo-1">
+                        <div class="conteudo">
+                            <img src="img/icones/ingles.webp">
+                            <div class="texto">
+                                <h3>Inglês</h3>
+                                <p>Básico</p>
+                            </div>
+                        </div>
+                        <div class="conteudo">
+                            <img src="img/icones/html.webp">
+                            <div class="texto">
+                                <h3>HTML5</h3>
+                                <p>Intermediário</p>
+                            </div>
+                        </div>
+                        <div class="conteudo">
+                            <img src="img/icones/css.webp">
+                            <div class="texto">
+                                <h3>CSS3</h3>
+                                <p>Intermediário</p>
+                            </div>
+                        </div>
+                        <div class="conteudo">
+                            <img src="img/icones/js.webp">
+                            <div class="texto">
+                                <h3>Java Script</h3>
+                                <p>Básico</p>
+                            </div>
+                        </div>
+                        <div class="conteudo">
+                            <img src="img/icones/figma.webp">
+                            <div class="texto">
+                                <h3>Figma</h3>
+                                <p>Básico</p>
+                            </div>
+                        </div>
+                        <div class="conteudo">
+                            <img src="img/icones/python.webp">
+                            <div class="texto">
+                                <h3>Python</h3>
+                                <p>Básico</p>
+                            </div>
+                        </div>
+                        <div class="conteudo">
+                            <img src="img/icones/java.webp">
+                            <div class="texto">
+                                <h3>Java</h3>
+                                <p>Básico</p>
+                            </div>
+                        </div>
+                        <div class="conteudo">
+                            <!-- <img src="img/icones/github.webp"> -->
+                            <div class="texto-em-breve">
+                                <img src="img/icones/reticencias.webp">
+                            </div>
+                        </div>
+                        <div class="conteudo">
+                            <!-- <img src="img/icones/github.webp"> -->
+                            <div class="texto-em-breve">
+                                <img src="img/icones/reticencias.webp">
+                            </div>
+                        </div>
+                        <div class="conteudo">
+                            <!-- <img src="img/icones/github.webp"> -->
+                            <div class="texto-em-breve">
+                                <img src="img/icones/reticencias.webp">
+                            </div>
+                        </div>
+                    </div><!--container-box-conteudo-1-->
+                </div><!--container-conteudo-->
+            </div><!--container-geral-->
+
+            <div class="proxima-section">
+                <a href="#projetos"><img src="img/icones/seta.webp"></a>
+            </div>
+        </section>
+
+        <section id="projetos">
+
+            <div class="titulo-projetos">
+                <h3>Projetos</h3>
+            </div>
+
+            <div class="container-projetos">
+
+                <div class="projetos primeiro">
+                    <div class="imagem-projeto">
+                        <img src="img/mockup-pet-shop-fundo-zinca.webp">
+                    </div>
+                    <h3>Projeto Pet Shop</h3>
+                    <div class="info-projeto">
+                        <button>
+                            <a href="https://github.com/Daniel-Formoso/project-pet-shop">Github</a>
+                        </button>
+                        <button>
+                            <a href="https://profound-puppy-868cb7.netlify.app/">Acesse Agora</a>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="projetos segundo">
+                    <div class="imagem-projeto">
+                        <img src="img/mockup-loja.webp">
+                    </div>
+                    <h3>Projeto Loja de Plantas</h3>
+                    <div class="info-projeto">
+                        <button>
+                            <a href="https://github.com/Daniel-Formoso/projeto-loja">Github</a>
+                        </button>
+                        <button>
+                            <a href="https://bejewelled-kangaroo-46b815.netlify.app/">Acesse Agora</a>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="projetos terceiro">
+                    <div class="imagem-projeto">
+                        <img src="img/mockup-fokus.webp">
+                    </div>
+                    <h3>Projeto Fokus</h3>
+                    <div class="info-projeto">
+                        <button>
+                            <a href="https://github.com/Daniel-Formoso/project-fokus-alura">Github</a>
+                        </button>
+                        <button>
+                            <a href="https://grand-rugelach-3797e2.netlify.app/">Acesse Agora</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="proxima-section">
+                <a href="#contato"><img src="img/icones/seta.webp"></a>
+            </div><!--proxima-section-->
+
+        </section>
+
+        <section class="section-vazia">
+
+        </section>
+
+        <section id="contato" class="ultima-section">
+
+            <div class="container-contatos">
+                <div class="titulo-contatos">
+                    <h3>Contato</h3>
+                </div>
+
+                <div class="container-conteudo-contatos">
+                    <div class="contato">
+                        <img src="img/icones/email.webp"><a href="#">daniel.formoso100@gmail.com</a>
+                    </div>
+                    <div class="contato">
+                        <img src="img/icones/linkedin.webp"><a href="#">LinkedIn</a>
+                    </div>
+                </div><!--container-conteudo-contatos-->
+            </div><!--container-contatos-->
+
+        </section>
+    </main>
+
+    <footer>
+
+        <div class="voltar-ao-topo">
+            <a href="#inicio">
+                <img src="img/icones/seta.webp">
+            </a>
+        </div>
+
+        <p>© 2024 Daniel Formoso. Todos os direitos reservados.</p>
+
+    </footer>
+
+</body>
+
+</html>
