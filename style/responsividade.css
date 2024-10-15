@@ -1,4 +1,4 @@
-@media (max-width: 766px) {
+@media (max-width: 767px) {
 
     /* ! GERAL */
     .proxima-section {
@@ -99,6 +99,7 @@
     }
 
     .titulo-sobre-mim {
+        margin-top: 100px;
         padding-top: 25px;
         padding-bottom: 0;
         text-align: center;
@@ -110,6 +111,7 @@
 
     /* ! EXPERIENCIA */
     .titulo-experiencia {
+        margin-top: 150px;
         padding-top: 25px;
         padding-bottom: 15px;
     }
@@ -132,6 +134,7 @@
 
     /* ! PROJETOS */
     .titulo-projetos {
+        /* margin-top: 150px; */
         padding-bottom: 15px;
     }
 
@@ -155,6 +158,10 @@
         display: flex;
         flex-direction: column;
         height: 500px;
+    }
+
+    .container-contatos {
+        margin: 250px 0;
     }
 
     .container-conteudo-contatos {
@@ -184,6 +191,10 @@
     .inicio h3:hover {
         border-bottom: 1px solid var(--borda);
         opacity: .5;;
+    }
+
+    footer p {
+        text-align: center;
     }
 
     .section-vazia {
