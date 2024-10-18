@@ -1,0 +1,288 @@
+@charset "UTF-8";
+
+@media only screen and (min-width: 992px) {
+
+    section {
+        height: 100vh;
+    }
+
+    .container-conteudo-titulo h2 {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    /* ! HEADER */
+    .menu-mobile.ativo {
+        width: 30%;
+    }
+
+    /* ! APRESENTACAO */
+    .minha-imagem-apresentacao img {
+        width: 500px;
+    }
+
+    .conteudo {
+        gap: 10px;
+        width: 50vw;
+    }
+
+    .conteudo p {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .conteudo h2 {
+        width: 100%;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .conteudo h4 {
+        width: 100%;
+        font-size: 25px;
+        font-weight: 200;
+    }
+
+    .link button {
+        padding: 15px 25px;
+        font-size: 20px;
+    }
+
+    .link-redes img {
+        width: 50px;
+    }
+
+    /* ! SOBRE MIM */
+    .container-conteudo-paragrafo {
+        margin-top: 30px;
+    }
+
+    .container-certificados h2 {
+        margin-top: 30px;
+        font-size: 25px;
+    }
+
+    .certificado p {
+        font-size: 18px;
+    }
+
+    .certificado a {
+        font-size: 18px;
+    }
+
+    .imagem-tablet-desktop {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 70px;
+    }
+
+    .imagem-tablet-desktop img {
+        animation: flutuar 2s ease-in-out infinite;
+        width: 300px;
+    }
+
+
+    /* ! EXPERIENCIA */
+    .conteudo-experiencia-1 {
+        margin-top: 50px;
+        padding: 20px;
+    }
+
+    .conteudo-titulo {
+        padding-bottom: 25px;
+    }
+
+    .conteudo-titulo h4 {
+        font-size: 20px;
+    }
+
+    .conteudo-experiencia {
+        display: flex;
+    }
+
+    .conteudo-texto p {
+        font-size: 18px;
+    }
+
+    /* ! PROJETOS */
+    .container-conteudo-projetos {
+        margin-top: 30px;
+    }
+
+    .projetos img {
+        width: 350px;
+        border-radius: 20px;
+    }
+
+    .projetos {
+        margin: 0 auto;
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .projetos h2 {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .projetos-links button {
+        padding: 15px 30px;
+    }
+
+    /* ! FORMULARIO */
+    .container-conteudo-titulo.contato h2 {
+        margin-top: 50px;
+    }
+
+    form {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    form input, form textarea {
+        padding: 20px 15px;
+    }
+
+    form input::placeholder, form textarea::placeholder {
+        font-family: var(--fonte-principal);
+        font-size: 15px;
+
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    section {
+        height: 100vh;
+    }
+
+    .proxima-section {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 0 100px 70px 0;
+    }
+
+    .proxima-section img {
+        width: 50px;
+        transform: rotate(-90deg);
+    }
+
+    /* ! HEADER */
+    .menu-mobile,
+    .btn-abrir-menu {
+        display: none;
+    }
+
+
+    .menu-desktop {
+        display: block;
+    }
+
+    .menu-desktop ul {
+        display: flex;
+        gap: 20px;
+        list-style: none;
+    }
+
+    .menu-desktop ul li a {
+        padding: 5px;
+        text-decoration: none;
+        color: var(--cor-letra);
+        transition: .5s;
+    }
+
+    .menu-desktop ul li a:hover {
+        color: var(--cor-principal);
+        border-bottom: 1px solid var(--cor-principal);
+    }
+
+    /* ! APRESENTACAO */
+    .minha-imagem-apresentacao img {
+        animation: flutuar 2s ease-in-out infinite;
+        width: 450px;
+    }
+
+    /* ! SOBRE MIM */
+    .conteudo-paragrafo p {
+        font-size: 20px;
+    }
+
+    .container-conteudo-paragrafo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .imagem-tablet-desktop img {
+        width: 400px;
+    }
+
+    .container-certificados h2 {
+        font-size: 35px;
+    }
+
+    .certificado {
+        gap: 10px;
+    }
+
+    .certificado p, .certificado a {
+        font-size: 20px;
+    }
+
+    /* ! EXPERIENCIA */
+    .conteudo-experiencia-1 {
+        margin: 30px 30% 0 30%;
+    }
+
+    /* ! PROJETOS */
+    section.section-projetos {
+        height: 100vh;
+    }
+
+    .link-ver-mais a {
+        font-size: 22px;
+    }
+
+    .projetos {
+        padding: 20px;
+        width: auto;
+    }
+
+    .projetos img {
+        width: 300px;
+    }
+
+    .container-conteudo-projetos {
+        display: flex;
+        gap: 10px;
+    }
+
+    /* ! FORMULARIO / CONTATO */
+    form {
+        width: 50%;
+    }
+
+    form textarea {
+        resize: none;
+        height: 150px;
+    }
+
+    form input, form textarea {
+        padding: 20px 15px;
+    }
+
+    form input::placeholder, form textarea::placeholder {
+        font-family: var(--fonte-principal);
+        font-size: 20px;
+    }
+
+    /* ! FOOTER */
+    .autor-do-site p {
+        font-size: 20px;
+    }
+}

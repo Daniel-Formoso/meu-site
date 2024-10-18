@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfolio</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="/styles/media-query.css">
+    <script src="menu.js" defer></script>
+</head>
+
+<body>
+
+    <header id="header">
+
+        <div class="interface-header">
+            <div class="logo-site">
+                <img src="img/logo.webp">
+            </div>
+
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#sobre-mim">Sobre Mim</a></li>
+                    <li><a href="#experiencia">Experiência</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul><!-- menu -->
+            </nav><!-- nav --->
+
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#sobre-mim">Sobre</a></li>
+                        <li><a href="#experiencia">Experiência</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul><!-- menu -->
+                </nav><!-- nav --->
+            </div>
+
+            <div class="overlay-menu" id="overlay-menu"></div>
+
+        </div><!--interface-->
+    </header>
+
+    <main>
+
+        <section id="apresentacao" class="primeira-section">
+
+            <div class="interface">
+
+                <div class="minha-imagem-apresentacao">
+                    <img src="img/foto-redonda.webp">
+                </div>
+
+                <div class="container-conteudo-texto">
+                    <div class="conteudo">
+                        <p>Olá, eu sou</p>
+                        <h2>Daniel Formoso</h2>
+                        <h4>Desenvolvedor Frontend</h4>
+                    </div>
+                </div><!--container-conteudo-texto-->
+
+                <div class="container-conteudo-links">
+                    <div class="link">
+                        <button>
+                            <a href="files/curriculo.pdf">Download CV</a>
+                        </button>
+                    </div>
+                    <div class="link">
+                        <button>
+                            <a href="#contato">Contate-me</a>
+                        </button>
+                    </div>
+                </div><!--container-conteudo-links-->
+
+                <div class="container-conteudo-links-redes">
+                    <div class="link-redes">
+                        <a href="https://github.com/Daniel-Formoso">
+                            <img src="img/icones/github-100.webp">
+                    </div>
+                    <div class="link-redes">
+                        <a href="https://www.linkedin.com/in/daniel-formoso-7943271b5/">
+                            <img src="img/icones/linkedin-100.webp">
+                        </a>
+                    </div>
+                </div><!--container-conteudo-links-redes-->
+
+            </div><!--interface-->
+        </section>
+
+        <section id="sobre-mim">
+            <div class="container-conteudo-titulo">
+                <h2>Sobre mim</h2>
+            </div><!--container-conteudo-titulo-->
+
+            <div class="container-conteudo-paragrafo">
+                <div class="conteudo-paragrafo">
+                    <p>
+                        Estudante de programação e futuro desenvolvedor, em busca da minha primeira oportunidade na área
+                        de tecnologia. Sou fascinado por como a tecnologia pode ajudar a resolver problemas no dia a
+                        dia. Durante meus estudos, tive a oportunidade de aperfeiçoar meus conhecimentos na parte de
+                        Frontend, no qual consegui adquirir um certificado pela Alura na formação de HTML e CSS para
+                        projetos web e também um certificado na formação de Python com Orientação a Objetos. Sou uma
+                        pessoa apaixonada por tecnologia, proativa, que valoriza muito o trabalho em equipe, apreciando
+                        os objetivos que alcançamos juntos. Com uma equipe de qualidade e minha dedicação diária, aspiro
+                        a construir uma carreira de sucesso na área.
+                    </p>
+                </div><!--conteudo-paragrafo-->
+
+                <div class="imagem-tablet-desktop">
+                    <a href="https://storyset.com/people">
+                        <img src="img/pessoa.webp" loading="lazy" alt="pessoa">
+                    </a>
+                </div><!--imagem-tablet-desktop-->
+            </div><!--container-conteudo-paragrafo-->
+
+            <div class="container-certificados">
+
+                <h2>Certificados</h2>
+
+                <div class="container-conteudo-certificados">
+                    <div class="certificado">
+                        <p>HTML e CSS para projetos Web: </p>
+                        <a href="files/certificado-html.pdf">clique aqui</a>
+                    </div>
+
+                    <div class="certificado">
+                        <p>Python Orientado a Objetos: </p>
+                        <a href="files/certificado-python.pdf">clique aqui</a>
+                    </div>
+                </div><!--container-conteudo-certificados-->
+
+            </div><!--container-certificados-->
+
+            <div class="proxima-section">
+                <a href="#experiencia">
+                    <img src="img/icones/flecha.webp">
+                </a>
+            </div><!--proxima-section-->
+
+        </section>
+
+        <section id="experiencia">
+            <div class="container-conteudo-titulo">
+                <h2>Experiência</h2>
+            </div><!--container-conteudo-titulo-->
+
+
+            <div class="conteudo-experiencia-1">
+                <div class="conteudo-titulo">
+                    <h4>Linguagens de Programação: </h4>
+                </div><!--conteudo-titulo-->
+
+                <div class="conteudo-experiencia">
+                    <div class="conteudo">
+                        <div class="conteudo-imagem">
+                            <img src="img/icones/java script.webp">
+                        </div>
+                        <div class="conteudo-texto">
+                            <p>Java Script</p>
+                            <p>Básico</p>
+                        </div>
+                    </div><!--conteudo-->
+                    <div class="conteudo">
+                        <div class="conteudo-imagem">
+                            <img src="img/icones/python.webp">
+                        </div>
+                        <div class="conteudo-texto">
+                            <p>Python</p>
+                            <p>Básico</p>
+                        </div>
+                    </div><!--conteudo-->
+                    <div class="conteudo">
+                        <div class="conteudo-imagem">
+                            <img src="img/icones/java.webp">
+                        </div>
+                        <div class="conteudo-texto">
+                            <p>Java</p>
+                            <p>Básico</p>
+                        </div>
+                    </div><!--conteudo-->
+                </div><!--conteudo-experiencia-->
+            </div><!--conteudo-experiencia-1-->
+
+
+            <div class="conteudo-experiencia-1">
+                <div class="conteudo-titulo">
+                    <h4>Outras: </h4>
+                </div><!--conteudo-titulo-->
+
+                <div class="conteudo-experiencia">
+                    <div class="conteudo">
+                        <div class="conteudo-imagem">
+                            <img src="img/icones/ingles.webp">
+                        </div>
+                        <div class="conteudo-texto">
+                            <p>Inglês</p>
+                            <p>Básico</p>
+                        </div>
+                    </div><!--conteudo-->
+                    <div class="conteudo">
+                        <div class="conteudo-imagem">
+                            <img src="img/icones/html5.webp">
+                        </div>
+                        <div class="conteudo-texto">
+                            <p>HTML5</p>
+                            <p>Intermediário</p>
+                        </div>
+                    </div><!--conteudo-->
+                    <div class="conteudo">
+                        <div class="conteudo-imagem">
+                            <img src="img/icones/css3.webp">
+                        </div>
+                        <div class="conteudo-texto">
+                            <p>CSS3</p>
+                            <p>Intermediário</p>
+                        </div>
+                    </div><!--conteudo-->
+                    <div class="conteudo">
+                        <div class="conteudo-imagem">
+                            <img src="img/icones/figma.webp">
+                        </div>
+                        <div class="conteudo-texto">
+                            <p>Figma</p>
+                            <p>Básico</p>
+                        </div>
+                    </div><!--conteudo-->
+                </div><!--conteudo-experiencia-->
+            </div><!--conteudo-experiencia-1-->
+
+            <!-- <div class="vazia"></div> -->
+
+            <div class="proxima-section">
+                <a href="#projetos">
+                    <img src="img/icones/flecha.webp">
+                </a>
+            </div><!--proxima-section-->
+
+        </section>
+
+        <section id="projetos" class="section-projetos">
+
+            <div class="container-conteudo-titulo">
+                <h2>Projetos</h2>
+            </div><!--container-conteudo-titulo-->
+
+            <div class="container-conteudo-projetos">
+
+                <div class="projetos">
+                    <img src="img/mockup-pet-shop-fundo-zinca.webp">
+                    <h2>Projeto Pet Shop</h2>
+
+                    <div class="projetos-links">
+                        <button>
+                            <a href="https://github.com/Daniel-Formoso/project-pet-shop">Github</a>
+                        </button>
+                        <button>
+                            <a href="https://profound-puppy-868cb7.netlify.app/">Live</a>
+                        </button>
+                    </div><!--projetos-links-->
+                </div><!--projetos-->
+
+                <div class="projetos">
+                    <img src="img/mockup-loja.webp">
+                    <h2>Projeto Loja</h2>
+                    <div class="projetos-links">
+                        <button>
+                            <a href="https://github.com/Daniel-Formoso/projeto-loja">Github</a>
+                        </button>
+                        <button>
+                            <a href="https://bejewelled-kangaroo-46b815.netlify.app/">Live</a>
+                        </button>
+                    </div><!--projetos-links-->
+                </div><!--projetos-->
+
+                <div class="projetos">
+                    <img src="img/mockup-fokus.webp">
+                    <h2>Projeto Fokus</h2>
+                    <div class="projetos-links">
+                        <button>
+                            <a href="https://github.com/Daniel-Formoso/project-fokus-alura">Github</a>
+                        </button>
+                        <button>
+                            <a href="https://grand-rugelach-3797e2.netlify.app/">Live</a>
+                        </button>
+                    </div><!--projetos-links-->
+                </div><!--projetos-->
+
+            </div><!--container--conteudo-projetos-->
+
+            <div class="link-ver-mais">
+                <a href="https://github.com/Daniel-Formoso">Ver mais</a>
+            </div><!--link-ver-mais-->
+
+            <div class="proxima-section">
+                <a href="#contato">
+                    <img src="img/icones/flecha.webp">
+                </a>
+            </div><!--proxima-section-->
+
+        </section>
+
+        <section id="contato" class="ultima-section">
+
+            <div class="container-conteudo-titulo contato">
+                <h2>Entre em Contato</h2>
+            </div><!--container-conteudo-titulo-->
+
+            <div class="container-formulario">
+
+                <form method="post" action="enviar.php">
+                    <input type="text" id="nome" name="nome" placeholder="Digite o seu nome" required>
+                    <input type="text" id="email" name="email" placeholder="Digite seu e-mail" required>
+                    <input type="text" id="telefone" name="telefone" placeholder="Digite seu telefone">
+                    <textarea type="text" id="" placeholder="Digite a sua mensagem" required></textarea>
+
+                    <div class="btn-enviar">
+                        <input type="submit" id="botao" value="Enviar">
+                    </div><!---btn-enviar-->
+                </form>
+
+                <div class="contato">
+                    <h3>Outro meio de contato:</h3>
+                    <div class="contato-texto">
+                        <img src="img/icones/email-azul.webp">
+                        <p>daniel.formoso100@gmail.com</p>
+                    </div><!--contato-texto-->
+                </div><!--contato-->
+
+            </div><!--container-formulario-->
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="voltar-ao-topo">
+            <a href="#header">
+                <img src="img/icones/flecha.webp">
+            </a>
+        </div><!--proxima-section-->
+
+        <div class="autor-do-site">
+            <p>&copy; 2024 Daniel Formoso. Todos os direitos reservados.</p>
+        </div><!--autor-do-site-->
+    </footer>
+
+</body>
+
+</html>
